@@ -190,7 +190,7 @@ export function Certificate({ data = defaultCertificate }: { data?: CertificateD
         src={sig2.url}
         alt="Signature of Adarsh Sudhindra"
         className="absolute"
-        style={{ left: x(1110), top: y(985), width: x(230) }}
+        style={{ left: x(1122), top: y(1016), width: x(196) }}
       />
       <div
         className="absolute text-center"
