@@ -34,7 +34,7 @@ const certificate: CertificateData = {
 
 function Index() {
   return (
-    <main className="min-h-screen bg-[#0a1430] p-4 font-sans sm:p-8">
+    <main className="min-h-screen bg-background font-sans">
       <Certificate data={certificate} />
     </main>
   );
