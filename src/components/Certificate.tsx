@@ -1,6 +1,6 @@
 import frame from "@/assets/cert-frame.png.asset.json";
-import excelsoft from "@/assets/cert-excelsoft.png.asset.json";
-import mqa from "@/assets/cert-mqa.png.asset.json";
+import excelsoft from "@/assets/cert-excelsoft-hq.png.asset.json";
+import mqa from "@/assets/cert-mqa-hq.png.asset.json";
 import wreath from "@/assets/cert-wreath.png.asset.json";
 import divShort from "@/assets/cert-div_short.png.asset.json";
 import divLong from "@/assets/cert-div_long.png.asset.json";
@@ -36,20 +36,12 @@ export function Certificate({ data = defaultCertificate }: { data?: CertificateD
   return (
     <div
       className="relative mx-auto w-full max-w-[1612px] select-none"
-      style={{ aspectRatio: `${W} / ${H}`, containerType: "inline-size" }}
+      style={{
+        aspectRatio: `${W} / ${H}`,
+        containerType: "inline-size",
+        background: "linear-gradient(145deg,#f6f5f4 0%,#f0eeee 55%,#eceaea 100%)",
+      }}
     >
-      {/* paper */}
-      <div
-        className="absolute"
-        style={{
-          left: x(118),
-          top: y(45),
-          width: x(1380),
-          height: y(1120),
-          background: "linear-gradient(145deg,#f6f5f4 0%,#f0eeee 55%,#eceaea 100%)",
-        }}
-      />
-
       {/* ornate border artwork */}
       <img
         src={frame.url}
