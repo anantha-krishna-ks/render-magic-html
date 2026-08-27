@@ -36,20 +36,12 @@ export function Certificate({ data = defaultCertificate }: { data?: CertificateD
   return (
     <div
       className="relative mx-auto w-full max-w-[1612px] select-none"
-      style={{ aspectRatio: `${W} / ${H}`, containerType: "inline-size" }}
+      style={{
+        aspectRatio: `${W} / ${H}`,
+        containerType: "inline-size",
+        background: "linear-gradient(145deg,#f6f5f4 0%,#f0eeee 55%,#eceaea 100%)",
+      }}
     >
-      {/* paper */}
-      <div
-        className="absolute"
-        style={{
-          left: x(118),
-          top: y(45),
-          width: x(1380),
-          height: y(1120),
-          background: "linear-gradient(145deg,#f6f5f4 0%,#f0eeee 55%,#eceaea 100%)",
-        }}
-      />
-
       {/* ornate border artwork */}
       <img
         src={frame.url}
