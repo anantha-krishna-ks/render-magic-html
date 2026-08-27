@@ -62,7 +62,7 @@ export function Certificate({ data = defaultCertificate }: { data?: CertificateD
         alt=""
         aria-hidden
         className="absolute"
-        style={{ left: x(690), top: y(60), width: x(220) }}
+        style={{ left: x(700), top: y(60), width: x(240) }}
       />
       <img
         src={mqa.url}
