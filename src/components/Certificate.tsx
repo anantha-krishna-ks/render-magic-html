@@ -182,7 +182,7 @@ export function Certificate({ data = defaultCertificate }: { data?: CertificateD
         src={sig1.url}
         alt="Signature of Ajay Pramod"
         className="absolute"
-        style={{ left: x(370), top: y(990), width: x(230) }}
+        style={{ left: x(370), top: y(985), width: x(230) }}
       />
       <div
         className="absolute text-center"
@@ -198,7 +198,7 @@ export function Certificate({ data = defaultCertificate }: { data?: CertificateD
         src={sig2.url}
         alt="Signature of Adarsh Sudhindra"
         className="absolute"
-        style={{ left: x(1110), top: y(990), width: x(230) }}
+        style={{ left: x(1110), top: y(985), width: x(230) }}
       />
       <div
         className="absolute text-center"
