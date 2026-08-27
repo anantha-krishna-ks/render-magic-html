@@ -174,7 +174,7 @@ export function Certificate({ data = defaultCertificate }: { data?: CertificateD
         src={sig1.url}
         alt="Signature of Ajay Pramod"
         className="absolute"
-        style={{ left: x(383), top: y(1000), width: x(193) }}
+        style={{ left: x(366), top: y(991), width: x(223) }}
       />
       <div
         className="absolute text-center"
