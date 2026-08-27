@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "asset_id": "8451f019-50e2-48bf-a752-aa85db63aaa9",
+  "asset_id": "b64a2804-8404-462e-aa4d-aa7a230e5cdb",
   "project_id": "f177a77d-2b25-4ea7-a323-b7d525198143",
-  "url": "/__l5e/assets-v1/8451f019-50e2-48bf-a752-aa85db63aaa9/cert-frame-v6.png",
-  "r2_key": "a/v1/f177a77d-2b25-4ea7-a323-b7d525198143/8451f019-50e2-48bf-a752-aa85db63aaa9/cert-frame-v6.png",
-  "original_filename": "cert-frame-v6.png",
-  "size": 486448,
+  "url": "/__l5e/assets-v1/b64a2804-8404-462e-aa4d-aa7a230e5cdb/cert-frame-original-exact.png",
+  "r2_key": "a/v1/f177a77d-2b25-4ea7-a323-b7d525198143/b64a2804-8404-462e-aa4d-aa7a230e5cdb/cert-frame-original-exact.png",
+  "original_filename": "cert-frame-original-exact.png",
+  "size": 681680,
   "content_type": "image/png",
-  "created_at": "2026-08-27T14:08:09Z"
+  "created_at": "2026-08-27T14:11:44Z"
 }
